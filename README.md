@@ -4,7 +4,7 @@ Go config Package
 ## 示例
 
 ### 加载配置文件
-```golang
+```go
 import "github.com/tinystack/config"
 
 cfg := config.New()
@@ -16,7 +16,7 @@ if err := cfg.LoadConfig(); err != nil {
 ```
 
 ### 可用的API
-```golang
+```go
 cfg.GetFloat64()
 cfg.GetBool()
 cfg.GetString()
